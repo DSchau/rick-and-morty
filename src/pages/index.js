@@ -1,17 +1,11 @@
 import * as React from 'react'
+import { Link } from 'gatsby'
 
 export default function Home (props) {
   return (
     <>
-      <h1>Rendering Modes Starter</h1>
-      <ul>
-        <li>
-          <a href='/dsg'>DSG page</a>
-        </li>
-        <li>
-          <a href='/ssr'>SSR page</a>
-        </li>
-      </ul>
+      <h1>Rick and Morty API. So Zany! 😛</h1>
+      <Link to="/characters/">Characters</Link>
     </>
   )
 }
